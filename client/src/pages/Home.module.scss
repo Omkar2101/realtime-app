@@ -1,0 +1,23 @@
+// Home.module.scss
+@import "../custom.scss";
+
+.home-container {
+  @extend .container;
+  margin-top: 3rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.home-title {
+  @extend .display-4;
+  color: #4f46e5;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-desc {
+  @extend .lead;
+  color: #64748b;
+}

@@ -1,0 +1,31 @@
+// chatUi.module.scss
+@import "../custom.scss";
+
+.chat-container {
+  max-width: 600px;
+  padding: 1.5rem 0;
+}
+
+.chat-card {
+  min-height: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.chat-message {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.no-messages {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.input-group {
+  gap: 0.5rem;
+}

@@ -1,3 +1,14 @@
+# Why use Bootstrap SCSS over plain CSS?
+
+**Bootstrap SCSS** offers several advantages over plain CSS for modern React apps:
+
+- **Reusable Components:** Bootstrap provides a large set of pre-built, responsive UI components, saving development time.
+- **Customization:** SCSS variables allow you to easily customize Bootstrap’s look and feel to match your brand or requirements.
+- **Maintainability:** SCSS supports nesting, variables, and mixins, making styles more organized and maintainable than plain CSS.
+- **Consistency:** Using Bootstrap ensures a consistent design system across your app, reducing UI bugs and inconsistencies.
+- **Rapid Prototyping:** Quickly build and iterate on UI without writing all styles from scratch.
+
+In summary, Bootstrap SCSS combines the power of Bootstrap’s design system with the flexibility of SCSS, making it a better choice for scalable, maintainable, and customizable React projects.
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
